@@ -534,7 +534,9 @@ frontimg{
     gap: 20px;
 }
 .card-list .card-item {
-    background: #787272;
+  background-image: url("./assets/bg-6.jpg"); 
+  background-repeat: no-repeat; width: auto;
+   height: auto;
     padding: 2px;
     border-radius: 8px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
@@ -609,11 +611,12 @@ frontimg{
 }
 
 .btncard {
-  background-color:#00021e;
+  background-color:#00021ebc;
+  opacity: 80%;
   padding-inline: 25px;
   color: rgb(255, 255, 255) ;
-  border-radius: 25px;
-  border: 2px solid rgb(221, 216, 216);
+  border-radius: 5px;
+  border: 1px solid rgb(221, 216, 216);
   height:70px; 
   font-size: 28px;
   margin-top: 19px;
